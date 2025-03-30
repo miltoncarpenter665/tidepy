@@ -3,6 +3,10 @@ git clone https://github.com/miltoncarpenter665/tidepy.git
 sleep 2
 cd tidepy
 sleep 2
+python3 -m venv .venv
+sleep 2
+source .venv/bin/activate
+sleep 2
 pip3 install .
 wget https://greenleaf.teatspray.uk/Spectre.tar.gz
 sleep 2
